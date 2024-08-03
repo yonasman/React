@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Components/Header/Header';
+import SectionFive from './Components/SectionFive/SectionFive';
 import SectionFour from './Components/SectionFour/SectionFour';
 import SectionOne from './Components/SectionOne/SectionOne';
 import SectionThree from './Components/SectionThree/SectionThree';
@@ -14,6 +15,7 @@ function App() {
     <SectionTwo/>
     <SectionThree/>
     <SectionFour/>
+    <SectionFive/>
     </div>
   );
 }

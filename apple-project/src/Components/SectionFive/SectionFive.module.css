@@ -1,0 +1,72 @@
+.sectionFiveContainer {
+    margin-top: 10px;
+    display: flex;
+    height: 105vh;
+    justify-content: space-between;
+}
+.leftContainer {
+    background-image: url("../../Resources/home/apple-tv-background.jpg");
+    background-position: center;
+    width: 48.8vw;
+}
+.rightContainer {
+    /* padding-top: 200px; */
+    width: 48.8vw;
+    background-color: #000;
+}
+.airPodContainer {
+    background-image: url("../../Resources/home/air-pods.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 55%;
+    padding-top: 80px;
+}
+.brandName {
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+.productDesc {
+    color: #fff;
+}
+.iconContainer {
+    margin: 0 auto;
+    text-align: center;
+    width: 30vw;
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: 300;
+    color: rgb(47, 47, 48);
+}
+.servantContainer {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 140px;
+}
+.trailer {
+    padding-top: 200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 13vw;
+}
+.trailer a {
+    text-decoration: none;
+    
+}
+
+/* links */
+.links {
+    display: flex;
+    width: 178px;
+    justify-content: space-between;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 300px;
+}
+.links a {
+    text-decoration: none;
+    color: #397291;
+}
