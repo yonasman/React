@@ -1,0 +1,43 @@
+.sectionOneContainer {
+    background-color: #FAFAFA;
+    color: #000;
+}
+.imageContainer {
+    background-image: url("../../Resources/home/macbook-pro.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    background-size: contain;
+    width: 600px;
+    height: 600px;
+    margin: -22px auto;
+}
+.textContainer {
+    text-align: center;
+}
+.modelText {
+    padding-top: 10px;
+    font-weight: 300;
+}
+.brandName {
+    font-weight: 600;
+    font-size: 50px;
+    margin: -10px 0;
+}
+.desc {
+    font-size: 35px;
+    font-weight: 380;
+    margin: 0;
+}
+.links {
+    display: flex;
+    width: 178px;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 300px;
+}
+.links a {
+    text-decoration: none;
+    color: #397291;
+}
