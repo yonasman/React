@@ -1,11 +1,9 @@
 .bgContainer {
-    background-image: url("../../Resources/home/iphone11-pro-bg.jpg");
+    background-image: url("../../Resources/home/iphone11-bg.jpg");
+    background-position: center;
     background-size: cover;
     height: 100vh;
-    background-position: center;
-    color: #fff;
 }
-
 .textContainer {
     text-align: center;
 }
@@ -22,7 +20,7 @@
 }
 .price {
     font-weight: 300;
-    color: #bab6b6;
+    color: #969595;
 }
 /* links */
 .links {
