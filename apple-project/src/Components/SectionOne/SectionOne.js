@@ -15,7 +15,6 @@ function SectionOne() {
                 </div>
             <div className={styles.imageContainer}>
             </div>
-            <hello>Hello</hello>
         </div>
     </>)
 }

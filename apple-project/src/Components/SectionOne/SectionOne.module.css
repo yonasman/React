@@ -9,8 +9,9 @@
     background-origin: content-box;
     background-size: contain;
     width: 600px;
-    height: 600px;
-    margin: -22px auto;
+    height: 100vh;
+    margin: 0 auto;
+    margin-bottom: -60px;
 }
 .textContainer {
     text-align: center;
