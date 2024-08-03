@@ -1,0 +1,83 @@
+.footerContainer {
+    background-color: #F5F5F7;
+    height: 120vh;
+
+}
+.footerContentWrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+.topText {
+    font-size: 12px;
+    color: #939191;
+    padding: 25px 0;
+    border-bottom: 1px solid #cfcfcf;
+
+}
+.footerContainer a {
+    display: block;
+}
+.linksContainer {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.footerContainer h1 {
+    font-size: 12px;
+    font-weight: 450;
+}
+.linksContainer a {
+    font-size: 11px;
+    font-weight: 350;
+    text-decoration: none;
+    color: #888686;
+    line-height: 24px;
+}
+.linksContainer a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(73, 78, 228);
+}
+.multipleLinksCont div{
+    margin-bottom: 15px;
+}
+.bottomParagraph a{
+    display: inline;
+}
+.bottomParagraph {
+    font-size: 12px;
+    padding-bottom: 5px;
+    color: #888686;
+    border-bottom: 1px solid #cfcfcf;
+}
+.bottomLinks {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #888686;
+}
+.bottomLinks img {
+    width: 20px;
+}
+.privacyLinks {
+    display: flex;
+}
+.privacyLinks a {
+    text-decoration: none;
+    font-weight: 300;
+    padding-left: 9px;
+    padding-right: 3px;
+    color: #888686;
+}
+.privacyLinks a:not(:last-child) {
+    border-right: 1px solid #bbb9b9;
+}
+.flagContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.flagContainer img {
+    border-radius: 100%;
+    padding-right: 4px;
+}
