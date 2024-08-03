@@ -1,0 +1,43 @@
+.sectionFourContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.leftContainer {
+    background-image: url("../../Resources/home/watch-series-5.jpg");
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    width: 48.8vw;
+}
+.rightContainer {
+    background-image: url("../../Resources/home/apple-card.jpg");
+    background-position: center;
+    height: 100vh;
+    width: 48.8vw;
+    background-size: cover;
+}
+.iconContainer {
+    margin: 0 auto;
+    text-align: center;
+    width: 30vw;
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: 300;
+}
+.productDesc {
+    padding: 10px 0;
+}
+/* links */
+.links {
+    display: flex;
+    width: 178px;
+    justify-content: space-between;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 300px;
+}
+.links a {
+    text-decoration: none;
+    color: #397291;
+}
