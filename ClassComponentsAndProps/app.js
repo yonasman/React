@@ -1,12 +1,7 @@
 // Class components and Props
 // **************************
-class Person {
-    constructor(name,age) {
-        this.name = name
-        this.age = age
-    }
-}
-let abe = new Person("Abebe",21);
+
+// let abe = new Person("",21);
 // console.log((Person.__proto__))
 // constructor
 function Animal(name,color) {
@@ -41,3 +36,19 @@ const Rectangle = class {
         this.height = height
     }
 }
+
+// traditional inheritance
+function Person(name,age) {
+        this.name = name
+        this.age = age
+}
+
+function Student(name,age,grade) {
+        this.grade = grade;
+        Person.call(this,name,age)
+}
+// console.log(Student.prototype)
+Student.prototype = Object.create(Person.prototype);
+// console.log(Student.prototype)
+let yon = new Student("John",23,12)
+console.log(yon)
