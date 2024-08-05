@@ -76,3 +76,38 @@ class Model extends Car{
 }
 let newModel = new Model("red",222,"Honda")
 // console.log(newModel.getDetail());
+/***********************************/
+// destructuring
+// *********************************
+let obj = {
+    name : "yonas",
+    age : 23
+}
+let {name, age:grade} = obj
+// console.log(name)
+// console.log(grade)
+
+let students = {
+    theName: "Haile",
+    theAge: 22,
+    theGenderAndHeight: {
+    theGender: "Male",
+    theHeight: 133,
+},
+};
+
+// let {theName,theAge,theGenderAndHeight:{theGender,theHeight}} = students
+// console.log(theGender)
+let student = {
+    theName: "Haile",
+    theAge: 22,
+    theGender: "Male",
+    theMood: "Happy",
+    };
+let {theName,...restProperties} = student
+// console.log(restProperties)
+
+function fullName({firstName,lastName}){
+    return firstName + " " + lastName
+}
+console.log(fullName({firstName:"Yonas",lastName:"Negese"}))
