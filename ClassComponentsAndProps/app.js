@@ -19,9 +19,10 @@ class Type extends Animal {
         super(a,b);
         this.type = c
     }
+    
 }
 let aniType = new Type("Dog","black","Domestic")
-// console.log(aniType)
+// console.log(aniType.getName())
 
 const Rectangle = class {
     constructor(width,height) {
@@ -51,4 +52,27 @@ function Student(name,age,grade) {
 Student.prototype = Object.create(Person.prototype);
 // console.log(Student.prototype)
 let yon = new Student("John",23,12)
-console.log(yon)
+// console.log(yon)
+
+class Car {
+    constructor(color,speed) {
+        this.color = color;
+        this.speed = speed;
+    }
+    getDetail() {
+        console.log(this.color + this.speed); 
+    }
+}
+
+class Model extends Car{
+    constructor(color,speed,model) {
+        super(color,model)
+        this.model = model
+    }
+    getDetail() {
+        super.getDetail();
+        return "Printing from child";
+    }
+}
+let newModel = new Model("red",222,"Honda")
+// console.log(newModel.getDetail());
