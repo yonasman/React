@@ -110,4 +110,6 @@ let {theName,...restProperties} = student
 function fullName({firstName,lastName}){
     return firstName + " " + lastName
 }
-console.log(fullName({firstName:"Yonas",lastName:"Negese"}))
+// console.log(fullName({firstName:"Yonas",lastName:"Negese"}))
+// class based components
+
