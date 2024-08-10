@@ -4,7 +4,7 @@ import FooterColumn from "./FooterColumn"
 function FooterLinksWrapper() {
     return(
         <>
-             {
+            {
                     footerData.map((section,i) => {
                         return (
                             
