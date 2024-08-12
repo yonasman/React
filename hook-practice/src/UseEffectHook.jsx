@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import UsingContext from "./UsingContext";
 // import { useState } from "react";
 
 function UseEffectHook() {
@@ -19,6 +20,7 @@ function UseEffectHook() {
             <h1>Hello</h1>
             <p>count : {count}</p>
             <button onClick={countUpdate}>Increase</button>
+            <UsingContext/>
         </>
     )
 }
