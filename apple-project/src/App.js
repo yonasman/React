@@ -8,6 +8,7 @@ import SectionOne from './Components/SectionOne/SectionOne';
 import SectionSix from './Components/SectionSix/SectionSix';
 import SectionThree from './Components/SectionThree/SectionThree';
 import SectionTwo from './Components/SectionTwo/SectionTwo';
+import YouTube from './Components/YouTube/YouTube';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <SectionFour/>
     <SectionFive/>
     <SectionSix/>
+    <YouTube/>
     <Footer/>
     {/* <FooterColumn/> */}
     </div>

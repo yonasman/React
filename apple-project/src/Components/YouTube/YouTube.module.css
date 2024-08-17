@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+    margin: 10px 0px;
+}
+.videoWrapper img{
+    width: 90%;
+    padding-left: 18px;
+    padding-top: 15px;
+}
+.videoWrapper {
+    width: 30%;
+    background-color: #e8e4e4;
+    margin: 10px;
+    border-radius: 5px;
+}
+.imgTitle {
+    font-weight: bold;
+}
+.videoWrapper p {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.wrapper {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
