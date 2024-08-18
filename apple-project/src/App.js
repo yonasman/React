@@ -1,30 +1,39 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Main from './Components/Main/Main';
+import Mac from './Pages/Mac'
+import Iphone from './Pages/Iphone'
+import Ipad from './Pages/Ipad'
+import Watch from './Pages/Watch'
+import Tv from './Pages/Tv'
+import Music from './Pages/Music'
+import Support from './Pages/Support'
+import Four04 from './Pages/Four04';
+import Cart from './Pages/Cart';
+import Search from './Pages/Search';
 import Footer from './Components/Footer/Footer';
-import FooterColumn from './Components/Footer/FooterColumn';
 import Header from './Components/Header/Header';
-import SectionFive from './Components/SectionFive/SectionFive';
-import SectionFour from './Components/SectionFour/SectionFour';
-import SectionOne from './Components/SectionOne/SectionOne';
-import SectionSix from './Components/SectionSix/SectionSix';
-import SectionThree from './Components/SectionThree/SectionThree';
-import SectionTwo from './Components/SectionTwo/SectionTwo';
-import YouTube from './Components/YouTube/YouTube';
-
 
 function App() {
   return (
-    <div className="App">
-    <Header/>
-    <SectionOne/>
-    <SectionTwo/>
-    <SectionThree/>
-    <SectionFour/>
-    <SectionFive/>
-    <SectionSix/>
-    <YouTube/>
-    <Footer/>
-    {/* <FooterColumn/> */}
-    </div>
+    <>
+      <Header/>
+      <Routes>
+        <Route path='/' element={<Main/>}/>
+        <Route path='/mac' element={<Mac/>}/>
+        <Route path='/iphone' element={<Iphone/>}/>
+        <Route path='/ipad' element={<Ipad/>}/>
+        <Route path='/watch' element={<Watch/>}/>
+        <Route path='/tv' element={<Tv/>}/>
+        <Route path='/music' element={<Music/>}/>
+        <Route path='/support' element={<Support/>}/>
+        <Route path='/support' element={<Support/>}/>
+        <Route path="/cart" element={<Cart/>}/>
+        <Route path='/search' element={<Search/>}/>
+        <Route path="*" element={<Four04/>}/>
+      </Routes>
+      <Footer/>
+    </>
   );
 }
 
