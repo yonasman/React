@@ -12,7 +12,7 @@ function Header() {
                     <li><Link to="https://www.apple.com/"><img src={logo} alt="logo"/></Link></li>
                     <li><Link to="/mac">Mac</Link></li>
                     <li><Link to="/iphone">iPhone</Link></li>
-                    <li><Link to="/iphone">iPad</Link></li>
+                    <li><Link to="/ipad">iPad</Link></li>
                     <li><Link to="/watch">watch</Link></li>
                     <li><Link to="/tv">tv</Link></li>
                     <li><Link to="/music">Music</Link></li>

@@ -1,0 +1,16 @@
+.iphoneWrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+.productWrapper img{
+    width: 30%;
+    /* height: 400px; */
+}
+.productWrapper p {
+    text-align: center;
+    /* width: 25%; */
+}
+.productWrapper {
+    display: flex;
+    justify-content: center;
+}
